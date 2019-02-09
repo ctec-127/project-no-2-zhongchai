@@ -4,4 +4,65 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: rgb(255, 219, 122);
+}
+
+#wrapper {
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.header img {
+    width: 90%;
+    max-width: 400px;
+}
+
+.main-content-box {
+    background-color: #fff;
+    padding: 40px;
+}
+
+.frame-container {
+    margin: 0 auto;
+    background-color: #ccc;
+}
+
+
+.footer p {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.main-frame img {
+    width: 33%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding-left: 40px;
+   /* height: 1446px;
+    width: 1896px; */
+}
+
+.img-bg {
+    z-index: -1;
+}
+
+.img-body {
+    z-index: 0;
+}
+
+.img-eyes {
+    z-index: 1;
+}
+
+.img-mouth {
+    z-index: 2;
 }
