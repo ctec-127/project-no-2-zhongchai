@@ -1,7 +1,7 @@
 /* style.css */
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: rgb(255, 219, 122);
@@ -26,43 +26,62 @@ body {
 }
 
 .main-content-box {
-    background-color: #fff;
+    background-color: white;
     padding: 40px;
 }
 
 .frame-container {
+    position: relative;
     margin: 0 auto;
-    background-color: #ccc;
+    height: 100%;
 }
 
 
 .footer p {
     text-align: center;
     font-size: 0.8em;
+    padding-top: 12px;
+}
+
+.main-frame {
+    background-color: white;
+    width: 33%;
+    min-width: 400px;
+    min-height: 500px;
+    height: 100%;
+    margin: 0 auto;
 }
 
 .main-frame img {
-    width: 33%;
     position: absolute;
     left: 0px;
     top: 0px;
-    padding-left: 40px;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
    /* height: 1446px;
     width: 1896px; */
 }
 
-.img-bg {
-    z-index: -1;
+.name h2 {
+    top: 0px;
+    padding: 6px;
+    z-index: 4;
+    text-align: center; 
 }
 
-.img-body {
+.img-bg {
     z-index: 0;
 }
 
-.img-eyes {
+.img-body {
     z-index: 1;
 }
 
-.img-mouth {
+.img-eyes {
     z-index: 2;
+}
+
+.img-mouth {
+    z-index: 3;
 }
